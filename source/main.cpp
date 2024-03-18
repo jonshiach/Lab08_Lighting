@@ -73,7 +73,7 @@ int main( void )
     glfwSetCursorPos(window, 1024/2, 768/2);
 
     // Compile shader programs
-    GLuint shaderID = LoadShaders("vertexShader.vert", "fragmentShader.frag");
+    GLuint shaderID = LoadShaders("vertexShader.vert", "multipleLightsFragmentShader.frag");
     GLuint lightShaderID = LoadShaders("lightVertexShader.vert", "lightFragmentShader.frag");
 
     // Load models

@@ -53,6 +53,8 @@ add_executable(Lab08_Lighting
 	source/camera.cpp
 	source/model.hpp
 	source/model.cpp
+	source/stb_image.hpp
+	source/std_image.cpp
 	source/vertexShader.vert
 	source/fragmentShader.frag
 )
