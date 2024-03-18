@@ -93,8 +93,8 @@ int main( void )
         lastTime = currentTime;
 
         // Background colour
-        glm::vec3 bgColour = glm::vec3(0.0f, 0.0f, 0.0f);
-        glClearColor(bgColour[0], bgColour[1], bgColour[2], 1.0f);
+        glm::vec3 black = glm::vec3(0.0f, 0.0f, 0.0f);
+        glClearColor(black[0], black[1], black[2], 1.0f);
         
         // Clear the window
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
